@@ -9,6 +9,7 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 ---
 ## Overview
 
+  - [Surveys](#surveys)
   - [Reasoning](#reasoning)
   - [Planning](#planning)
   - [Manipulation](#manipulation)
@@ -17,8 +18,17 @@ If you find this repository useful, please consider [citing](#citation) and STAR
   - [Citation](#citation)
 
 ---
+## Surveys
+* "Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis", *arXiv, Dec 2023*. [[Paper](https://arxiv.org/abs/2312.08782)] [[Paper List](https://github.com/JeffreyYH/robotics-fm-survey)] [[Website](https://robotics-fm-survey.github.io/)] 
+* "Language-conditioned Learning for Robotic Manipulation: A Survey", *arXiv, Dec 2023*, [[Paper](https://arxiv.org/abs/2312.10807)] 
+* "Foundation Models in Robotics: Applications, Challenges, and the Future", *arXiv, Dec 2023*, [[Paper](https://arxiv.org/abs/2312.07843)] [[Paper List](https://github.com/robotics-survey/Awesome-Robotics-Foundation-Models)]
+* "Robot Learning in the Era of Foundation Models: A Survey", *arXiv, Nov 2023*, [[Paper](https://arxiv.org/abs/2311.14379)]
+* "The Development of LLMs for Embodied Navigation", *arXiv, Nov 2023*, [[Paper](https://arxiv.org/abs/2311.00530)]
+---
 ## Reasoning
 
+* **LEO**: "An Embodied Generalist Agent in 3D World", *arXiv, Nov 2023*. [[Paper](https://arxiv.org/abs/2311.12871)] [[Code](https://github.com/embodied-generalist/embodied-generalist)] [[Website](https://embodied-generalist.github.io/)]
+* **Robogen**: "A generative and self-guided robotic agent that endlessly propose and master new skills.", *arXiv, Nov 2023*. [[Paper](https://arxiv.org/abs/2311.01455)] [[Code](https://github.com/Genesis-Embodied-AI/RoboGen)] [[Website](https://robogen-ai.github.io/)] 
 * **[LLaRP]** "Large Language Models as Generalizable Policies for Embodied Tasks", *arXiv, Oct 2023*.
 [[Paper](https://arxiv.org/abs/2310.17722)] [[Website](https://llm-rl.github.io)]
 * **[RT-X]** "Open X-Embodiment: Robotic Learning Datasets and RT-X Models", *arXiv, July 2023*.
@@ -44,7 +54,8 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 
 ---
 ## Planning
-
+ * **ViLa**: "Look Before You Leap: Unveiling the Power of GPT-4V in Robotic Vision-Language Planning", *arXiv, Sep 2023*, [[Paper](https://arxiv.org/abs/2311.17842)] [[Website](https://robot-vila.github.io/)]
+ * **LGMCTS**: "LGMCTS: Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement", *arXiv, Sep 2023*. [[Paper](https://arxiv.org/abs/2309.15821)]
  * **Prompt2Walk**: "Prompt a Robot to Walk with Large Language Models", *arXiv, Sep 2023*, [[Paper](https://arxiv.org/abs/2309.09969)] [[Website](https://prompt2walk.github.io)]
  * **DoReMi**: "Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment", *arXiv, July 2023*, [[Paper](https://arxiv.org/abs/2307.00329)] [[Website](https://sites.google.com/view/doremi-paper)]
  * **LLM+P**:"LLM+P: Empowering Large Language Models with Optimal Planning Proficiency", *arXiv, Apr 2023*, [[Paper](https://arxiv.org/abs/2304.11477)] [[Code](https://github.com/Cranial-XIX/llm-pddl)]
@@ -103,7 +114,7 @@ If you find this repository useful, please consider [citing](#citation) and STAR
  * **R3M**:"R3M: A Universal Visual Representation for Robot Manipulation", *arXiv, Nov 2022*, [[Paper](https://arxiv.org/abs/2203.12601)] [[Pytorch Code](https://github.com/facebookresearch/r3m)] [[Website](https://tinyurl.com/robotr3m)]
  * **LIV**:"LIV: Language-Image Representations and Rewards for Robotic Control", *arXiv, Jun 2023*, [[Paper](https://arxiv.org/abs/2306.00958)] [[Pytorch Code](https://github.com/penn-pal-lab/LIV)] [[Website](https://penn-pal-lab.github.io/LIV/)]
  * **LILAC**:"No, to the Right – Online Language Corrections for Robotic Manipulation via Shared Autonomy", *arXiv, Jan 2023*, [[Paper](https://arxiv.org/abs/2301.02555)] [[Pytorch Code](https://github.com/Stanford-ILIAD/lilac)]
- * **NLMap**:"Open-vocabulary Queryable Scene Representations for Real World Planning", *arXiv, Oct 2023*, [[Paper](https://arxiv.org/abs/2209.09874)] [[Website](https://nlmap-saycan.github.io/)]
+ * **NLMap**:"Open-vocabulary Queryable Scene Representations for Real World Planning", *arXiv, Sep 2022*, [[Paper](https://arxiv.org/abs/2209.09874)] [[Website](https://nlmap-saycan.github.io/)]
  * **LLM-GROP**:"Task and Motion Planning with Large Language Models for Object Rearrangement", *arXiv, May 2023*. [[Paper](https://arxiv.org/pdf/2303.06247)] [[Website](https://sites.google.com/view/llm-grop)]
  * "Towards a Unified Agent with Foundation Models", *ICLR, 2023*. [[Paper](https://www.semanticscholar.org/paper/TOWARDS-A-UNIFIED-AGENT-WITH-FOUNDATION-MODELS-Palo-Byravan/67188a50e1d8a601896f1217451b99f646af4ac8)] 
  * **ELLM**:"Guiding Pretraining in Reinforcement Learning with Large Language Models", *arXiv, Feb 2023*. [[Paper](https://arxiv.org/abs/2302.06692)] 
@@ -123,7 +134,7 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 
 ---
 ## Instructions and Navigation
-
+ * **OVSG**: "Context-Aware Entity Grounding with Open-Vocabulary 3D Scene Graphs", *CoRL, Nov 2023*. [[Paper](https://openreview.net/forum?id=cjEI5qXoT0)] [[Code](https://github.com/changhaonan/OVSG)] [[Website](https://ovsg-l.github.io/)]
  * **ADAPT**: "ADAPT: Vision-Language Navigation with Modality-Aligned Action Prompts", *CVPR, May 2022*. [[Paper](https://arxiv.org/abs/2205.15509)]
  * "The Unsurprising Effectiveness of Pre-Trained Vision Models for Control", *ICML, Mar 2022*. [[Paper](https://arxiv.org/abs/2203.03580)] [[Pytorch Code](https://github.com/sparisi/pvr_habitat)] [[Website](https://sites.google.com/view/pvr-control)]
  * **CoW**: "CLIP on Wheels: Zero-Shot Object Navigation as Object Localization and Exploration", *arXiv, Mar 2022*. [[Paper](https://arxiv.org/abs/2203.10421)]
@@ -131,10 +142,12 @@ If you find this repository useful, please consider [citing](#citation) and STAR
  * **VLN-BERT**: "Improving Vision-and-Language Navigation with Image-Text Pairs from the Web", *ECCV, Apr 2020* [[Paper](https://arxiv.org/abs/2004.14973)] [[Pytorch Code](https://github.com/arjunmajum/vln-bert)]
 * "Interactive Language: Talking to Robots in Real Time", *arXiv, Oct 2022* [[Paper](https://arxiv.org/abs/2210.06407)] [[Website](https://interactive-language.github.io/)]
 * **VLMaps**: "Visual Language Maps for Robot Navigation", *arXiv, Mar 2023*. [[Paper](https://arxiv.org/abs/2210.05714)] [[Pytorch Code](https://github.com/vlmaps/vlmaps)] [[Website](https://vlmaps.github.io/)]
+ * **NLMap**:"Open-vocabulary Queryable Scene Representations for Real World Planning", *arXiv, Sep 2022*, [[Paper](https://arxiv.org/abs/2209.09874)] [[Website](https://nlmap-saycan.github.io/)]
 
 ---
 ## Simulation Frameworks
-
+ * **GENESIS**: "A generative world for general-purpose robotics & embodied AI learning.", *arXiv, Nov 2023*. [[Code](https://github.com/Genesis-Embodied-AI/Genesis)] 
+ * **ARNOLD**: "ARNOLD: A Benchmark for Language-Grounded Task Learning With Continuous States in Realistic 3D Scenes", *ICCV, Apr 2023*. [[Paper](https://arxiv.org/abs/2304.04321)] [[Code](https://github.com/arnold-benchmark/arnold)] [[Website](https://arnold-benchmark.github.io/)]
  * **MineDojo**: "MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge", *arXiv, Jun 2022*. [[Paper](https://arxiv.org/abs/2206.08853)] [[Code](https://github.com/MineDojo/MineDojo)] [[Website](https://minedojo.org/)] [[Open Database](https://minedojo.org/knowledge_base.html)]
  * **Habitat 2.0**: "Habitat 2.0: Training Home Assistants to Rearrange their Habitat", *NeurIPS, Dec 2021*. [[Paper](https://arxiv.org/abs/2106.14405)] [[Code](https://github.com/facebookresearch/habitat-sim)] [[Website](https://aihabitat.org/)]
  * **BEHAVIOR**: "BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological Environments", *CoRL, Nov 2021*. [[Paper](https://arxiv.org/abs/2108.03332)] [[Code](https://github.com/StanfordVL/behavior)] [[Website](https://behavior.stanford.edu/)]
